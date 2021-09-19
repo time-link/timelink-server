@@ -19,7 +19,7 @@ root@dfd228cbdb2b:/app#
 ```
 Then at that prompt
 ```bash
-DOMAIN=backend sh ./scripts/test-local.sh
+DOMAIN=backend sh ./scripts/test.sh
 ```
 And the first run after install should look like:
 ```bash
