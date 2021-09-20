@@ -6,8 +6,10 @@ template. Here we clarify some aspects.
 
 ## Testing
 
-The test are run inside the container. So it is necessary to 
+The tests are run inside the container. So it is necessary to 
 connect to the container and run the tests from there.
+
+From the top level of the project directory:
 
 ```bash
 docker-compose exec backend bash
