@@ -4,6 +4,24 @@ Check the README.md in the top level directory of `timelink-server`
 repository which contains the original instructions of the stack
 template. Here we clarify some aspects.
 
+## Database with pgadmin
+
+`pgadmin` runs at http://localhost:5050
+
+Login with the credentials `PGADMIN_DEFAULT_EMAIL`  and `PGADMIN_DEFAULT_PASSWORD` in `.env` .
+
+A connection must be configured the first time.
+
+Use:
+*  `Host name` = `db`  (value of `POSTGRES_SERVER`in `.env`)
+*  `Port` = `5432`
+*  `Username` = `postgres` (value of `POSTGRES_USER`)in `.env`
+*  `Password` = value of `POSTGRES_PASSWORD` in `.env`
+
+
+
+
+
 ## Testing directly in the backend
 
 The test are run inside the container. So it is necessary to 
