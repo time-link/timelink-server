@@ -1,6 +1,7 @@
-# Nuxt.js frontend replacement for FastAPI base project generator
-
-## What is it?
+---
+title: Getting started
+description: 'Accelerate your next FastAPI Base Project Generator frontend development by replacing Vue.js with NuxtJS, an open source framework making web development simple and powerful.'
+---
 
 Accelerate your next FastAPI Base Project Generator frontend development by replacing Vue.js with NuxtJS, an open source framework making web development simple and powerful.
 
